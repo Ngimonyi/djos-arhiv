@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradivo</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+   
+  <div class="naslov"><img id="headerLogo" src="./logo.png" alt="logo">
+    <h2 id="headerTitle">NADBISKUPIJSKI ARHIV </h2></div>
+
+<div id="container">
+  <div id="mainHeader" class="sticky">
+    <div id="upperNav">
+      <div class="flex-container"> 
+        <div class="flex-item">
+          <div class="dropdown">
+            <a href="home.html" target="_blank"> Home</a>
+          </div>
+          <div class="dropdown">
+            <a href="Početna.html" target="_blank">Početna</a>
+          </div>
+          <div class="dropdown"> 
+            <a href="O arhivu.html" target="_blank">O Arhivu</a>
+            <div class="dropdown-content">
+              <a href="#">Povjest Arhiva</a>
+              <a href="#">Zgrada</a>
+              <a href="#">Djelatnost</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="Gradivo.html" target="_blank">Gradivo/Fondovi i Zbirke i Matične Knjige</a>
+            <div class="dropdown-content">
+              <a href="#">Parice</a>
+              <a href="#">Ordinarijat</a>
+              <a href="#">Kaptol</a>
+              <a href="#">Vlastelistvo</a>
+              <a href="#">Kanonske Vizitacije</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="Digitalno Gradivo.html" target="_blank"> Digitalno Gradivo</a>
+          </div>
+          <div class="dropdown">
+            <a href="Pravilnik.html" target="_blank">Pravilnik</a>
+          </div>
+          <div class="dropdown">
+            <a href="Kontakt.html" target="_blank">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="bottom-navbar">
+    <img src="./logo.png" style="height: 50px; width: 30%; align-items: center;" alt="logo">
+  
+  </div>
+      
+
+<div class="main">
+
+    <p>kdjskaoeiwqjfewkqfjweiqofw</p>
+    
+    </div>
+
+
+    <script>
+        window.onscroll = function() {
+          myFunction();
+        };
+      
+        var header = document.getElementById("mainHeader"); // Change the ID to "mainHeader"
+        var sticky = header.offsetTop;
+      
+        function myFunction() {
+          if (window.pageYOffset >= 1) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+      </script>
+</body>
+</html>
